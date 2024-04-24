@@ -22,7 +22,7 @@ form {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
-    margin-top: 450px;
+    margin-top: 550px;
     background-color: aqua;
 }
 
@@ -44,7 +44,7 @@ input {
 .submit-button {
     background: #000;
     color: #FFF;
-    width: 15%;
+    width: 16%;
 }
 
 html {
@@ -52,8 +52,8 @@ html {
 }
 
 .duck {
-    position: absolute; 
-    top: 200px; 
+    position: relative; 
+    top: -425px; 
     left: 51%; 
     transform: translateX(-50%) scaleX(-1); 
     z-index: 1000;
@@ -64,16 +64,16 @@ html {
     font-family: nicolastregular, sans-serif;
     position: absolute;
     z-index: 1;
-    top: 14.5%; 
-    left: 56%; 
+    top: 20%; 
+    left: 57.2%; 
     transform: rotate(13deg) translate(-50%, -50%); 
     margin: 0;
 }
 
 .bubble {
     position: absolute;
-    top: 10%;
-    left: 52%;
+    top: 15%;
+    left: 53%;
     transform: rotate(20deg);
 }
 
@@ -86,7 +86,7 @@ html {
     clear:both;
     position: relative; 
     left: 28.5%;
-    top: 57%;
+    top: -280px;
   
 }
 .bookmarks i{
@@ -116,6 +116,8 @@ html {
 
 #calculator{
     opacity:0;
+    position: absolute;
+    top: 70%;
 }
 
 @media only screen and (max-width: 900px) {
@@ -136,10 +138,6 @@ html {
     }
  }
 
- .weatherwidget-io {
-    height: 10px
- }
- 
    
  
 

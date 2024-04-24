@@ -21,15 +21,6 @@ function showNote(){
     }
 }
 
-if (localStorage["calculator"]) {
-    var calculator = localStorage["calculator"];
-    document.getElementById("calculator").value = calculator;
- }
-  
-function autoSave() {
-    var calculator = document.getElementById("calculator").value;
-    localStorage.setItem("calculator", calculator);
-}
  
 //CALCULATOR SHOW AND HIDE
 var show = false;
@@ -37,6 +28,7 @@ function showCalculator(){
     if (show == false){
         document.getElementById("calculator").style.opacity = 1;
         show = true;
+        
     }
     else if (show == true){
         document.getElementById("calculator").style.opacity = 0;
@@ -44,6 +36,3 @@ function showCalculator(){
     }
 }
 
-
- 
- 
