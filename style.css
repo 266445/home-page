@@ -56,7 +56,7 @@ html {
     z-index: 1000;
     position:relative;
     top:150px;
-    left:140px;
+    left:180px;
 }
 
 
@@ -64,7 +64,7 @@ html {
 .bubble {
     position: relative;
     top: -130px;
-    left: -80px;
+    left: -50px;
     transform: rotate(20deg);
 }
 
