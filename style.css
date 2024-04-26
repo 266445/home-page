@@ -62,9 +62,9 @@ html {
 
 
 .bubble {
-    position: absolute;
-    top: 15%;
-    left: 54%;
+    position: relative;
+    top: -130px;
+    left: -80px;
     transform: rotate(20deg);
 }
 
